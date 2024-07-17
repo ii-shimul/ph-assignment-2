@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+.miama-font {
+	font-family: "Miama", sans-serif;
+	color: white;
+}
+
+.inter-font {
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+	font-variation-settings: "slnt" 0;
+	color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* shared styles */
+
+body {
+	background-color: black;
+}
+
+.btn-primary {
+	border-radius: 42px;
+	padding: 16px 40px 16px 40px;
+	background: rgb(230, 83, 60);
+	color: rgb(255, 255, 255);
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.description {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+
+/* nav styles */
+
+nav .brand {
+	color: rgb(230, 83, 60);
+	font-size: 2.25rem;
+	font-weight: 800;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	width: 73.6%;
+}
+
+nav ul {
+	width: 43%;
+	height: 46px;
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 39px;
+	padding: 4px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px;
+	list-style: none;
+}
+
+#about {
+	margin-right: 20px;
+}
+
+#home {
+	border-radius: 46px;
+	padding: 8px 20px 8px 20px;
+	background: rgb(230, 83, 60);
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	color: rgb(255, 255, 255);
+	font-size: 1.125rem;
+}
+
+/* banner styles */
+
+header {
+	width: 100%;
+	height: 715px;
+	background: linear-gradient(
+		180deg,
+		rgb(17, 17, 17),
+		rgba(119, 119, 119, 0) 100%
+	);
+	padding-top: 57px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 167px;
+}
+
+.banner .texts {
+	width: 36.11%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.banner .texts .title {
+	color: rgb(255, 255, 255);
+	font-size: 4.875rem;
+	font-weight: 900;
+	line-height: 120%;
+}
+
+.banner .texts .title span {
+	font-weight: 400;
+	font-size: 10rem;
+}
+
+#download-btn {
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 42px;
+    background-color: transparent;
+}
+
+.btn-container{
+    display: flex;
+    gap: 14px;
+}
