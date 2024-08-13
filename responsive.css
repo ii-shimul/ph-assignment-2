@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px) {
+
+    /* nav and banner */
+
+	.banner {
+		flex-direction: column;
+		margin-right: 20px;
+		margin-left: 20px;
+		gap: 40px;
+	}
+	nav > ul {
+		display: none;
+	}
+	.ham-menu{
+		display: block;
+		width: 24px;
+	}
+	.banner .texts {
+		width: 362px;
+		height: 335px;
+		margin: 51px 21px 0 21px;
+	}
+	.banner .texts .description {
+		width: 274px;
+		height: 94px;
+	}
+	.banner .texts .title {
+		font-size: 2rem;
+		margin-right: 67px;
+	}
+	.banner .texts .title span {
+		font-size: 5rem;
+	}
+	#join-btn::before {
+		content: "Join Now!";
+	}
+	.btn-primary {
+		padding: 14px 30px;
+	}
+	nav {
+		width: 85%;
+	}
+	.rectangle-free {
+		margin-top: 350px;
+		margin-right: 100px;
+	}
+	.rectangle-tutorial {
+		margin-top: 600px;
+		margin-right: 400px;
+	}
+
+    /* change habits */
+    .change-habits{
+        margin-top: 400px;
+    }
+    .change-habits .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
