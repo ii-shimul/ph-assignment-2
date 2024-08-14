@@ -254,24 +254,24 @@ header {
 	margin-bottom: 14px;
 }
 
-.cards {
+.ccards {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
 }
 
-.cards .card {
+.ccards .ccard {
 	width: 231px;
 	height: 274px;
 	text-align: center;
 }
 
-.cards .card .description {
+.ccards .ccard .description {
 	text-align: center;
 	margin-top: 6px;
 }
 
-.cards .card img {
+.ccards .ccard img {
 	border-radius: 50%;
 	margin-bottom: 30px;
 }
@@ -531,6 +531,11 @@ select {
 	margin-bottom: 15px;
 }
 
+.facilities .text p {
+	text-align: center;
+	font-size: 14px;
+}
+
 .cards {
 	display: flex;
 	justify-content: center;
@@ -539,16 +544,37 @@ select {
 	margin-bottom: 90px;
 }
 
+.cards .card .img-container {
+	width: 300px;
+	height: auto;
+}
+
+.cards .card .img-container img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.cards .card .description{
+	text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.6);
+}
+
 .cards .card {
 	width: 323px;
-	height: 290px;
+	height: 500px;
 	border-radius: 16px;
-	background: rgba(255, 76, 30, 0.05);
+	background: rgb(34, 34, 34);
 	padding: 35.6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .cards .card h3 {
-	color: rgb(13, 19, 33);
+	color: rgb(255, 255, 255, 0.8);
 	font-size: 21px;
 	font-weight: 800;
 	line-height: 23px;
@@ -556,7 +582,7 @@ select {
 }
 
 .cards .card a {
-	color: rgb(13, 19, 33);
+	color: rgb(84, 86, 88);
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 17px;
@@ -565,13 +591,7 @@ select {
 .cards .card img,
 p {
 	margin-bottom: 21px;
-}
-
-.cards .css {
-	background: rgba(0, 76, 232, 0.05);
-}
-.cards .js {
-	background: rgba(255, 223, 0, 0.05);
+	border-radius: 16px;
 }
 
 /* footer section */

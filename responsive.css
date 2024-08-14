@@ -52,7 +52,7 @@
 	.change-habits {
 		margin-top: 400px;
 	}
-	.change-habits .cards {
+	.change-habits .ccards {
 		grid-template-columns: repeat(1, 1fr);
 	}
 
@@ -101,21 +101,30 @@
 	}
 
 	/* team section */
-	.trainers{
-		grid-template-columns: repeat(1,1fr);
+	.trainers {
+		grid-template-columns: repeat(1, 1fr);
 	}
-	.hide{
+	.hide {
 		display: none;
 	}
 
+	/* unique facilities section */
+	.cards {
+		flex-direction: column;
+	}
+
+	.facilities .text {
+		margin: 0;
+	}
+
 	/* footer */
-	.footer{
+	.footer {
 		height: 850px;
 	}
-	.get-started{
+	.get-started {
 		width: 70%;
 	}
-	.foot-content{
+	.foot-content {
 		flex-direction: column;
 		gap: 40px;
 		align-items: start;
