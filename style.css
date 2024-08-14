@@ -374,8 +374,6 @@ td {
 	font-size: 14px;
 }
 
-
-
 .bmi-cal button {
 	width: 220px;
 	margin-top: 10px;
@@ -400,7 +398,7 @@ td {
 	margin-bottom: 10px;
 }
 
-#active{
+#active {
 	width: 100%;
 }
 
@@ -415,12 +413,104 @@ select {
 	border-radius: 8px;
 	background: rgba(255, 255, 255, 0.1);
 }
-.input-group input{
+.input-group input {
 	width: 75%;
 }
 
-.grid-in{
+.grid-in {
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
 }
+
+/* team section */
+
+.team .texteam{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.team .texteam h1{
+	font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.team .texteam p{
+	text-align: center;
+	font-weight: 200;
+}
+
+.trainers {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	border-radius: 18px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.t1, .t2, .t3, .t4, .t5, .t6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    height: 275px;
+    position: relative;
+}
+
+.t1 {
+    background-image: url("./images/trainer1.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.t2 {
+    background-image: url("./images/trainer2.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.t3 {
+    background-image: url("./images/trainer3.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.t4 {
+    background-image: url("./images/trainer4.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.t5 {
+    background-image: url("./images/trainer5.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.t6 {
+    background-image: url("./images/trainer6.png");
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.team .trainers .trainer .info{
+	position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.team .trainers .trainer .info h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+.team .trainers .trainer .info .role{
+	font-size: 14px;
+	margin-top: 5px;
+	font-weight: 100;
+}
+
+/* footer section */
+

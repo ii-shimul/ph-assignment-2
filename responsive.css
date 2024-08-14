@@ -88,15 +88,23 @@
 	}
 
 	/* bmi section */
-  .bmi{
-    flex-direction: column;
-    height: 900px;
-  }
-  .bmi-cal{
-    width: 85%;
-    gap: 10px;
-  }
-  .input-group input{
-	width: 70%;
-}
+	.bmi {
+		flex-direction: column;
+		height: 900px;
+	}
+	.bmi-cal {
+		width: 85%;
+		gap: 10px;
+	}
+	.input-group input {
+		width: 70%;
+	}
+
+	/* team section */
+	.trainers{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.hide{
+		display: none;
+	}
 }
