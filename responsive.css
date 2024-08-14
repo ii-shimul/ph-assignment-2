@@ -1,6 +1,5 @@
 @media screen and (max-width: 576px) {
-
-    /* nav and banner */
+	/* nav and banner */
 
 	.banner {
 		flex-direction: column;
@@ -11,7 +10,7 @@
 	nav > ul {
 		display: none;
 	}
-	.ham-menu{
+	.ham-menu {
 		display: block;
 		width: 24px;
 	}
@@ -49,12 +48,55 @@
 		margin-right: 400px;
 	}
 
-    /* change habits */
-    .change-habits{
-        margin-top: 400px;
-    }
-    .change-habits .cards{
-        grid-template-columns: repeat(1,1fr);
-    }
+	/* change habits */
+	.change-habits {
+		margin-top: 400px;
+	}
+	.change-habits .cards {
+		grid-template-columns: repeat(1, 1fr);
+	}
 
+	/* extra mile section */
+	.extra-mile {
+		flex-direction: column;
+		width: 80%;
+		padding: 30px;
+	}
+	.extra-mile .texts {
+		margin: 0;
+	}
+	.extra-mile .texts > h1 {
+		font-size: 2rem;
+		font-weight: 900;
+		line-height: 120%;
+		margin-bottom: 14px;
+	}
+	.extra-img {
+		width: 100%;
+		height: auto;
+		border-radius: 18px;
+		margin: 0;
+		margin-top: 30px;
+	}
+	.extra-img > img {
+		position: static;
+		width: 100%;
+		height: auto;
+	}
+	.extra-mile .texts .extra-btn {
+		width: 100%;
+	}
+
+	/* bmi section */
+  .bmi{
+    flex-direction: column;
+    height: 900px;
+  }
+  .bmi-cal{
+    width: 85%;
+    gap: 10px;
+  }
+  .input-group input{
+	width: 70%;
+}
 }
