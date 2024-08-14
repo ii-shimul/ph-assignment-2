@@ -37,7 +37,7 @@
 		padding: 14px 30px;
 	}
 	nav {
-		width: 85%;
+		width: 83%;
 	}
 	.rectangle-free {
 		margin-top: 350px;
@@ -106,5 +106,18 @@
 	}
 	.hide{
 		display: none;
+	}
+
+	/* footer */
+	.footer{
+		height: 850px;
+	}
+	.get-started{
+		width: 70%;
+	}
+	.foot-content{
+		flex-direction: column;
+		gap: 40px;
+		align-items: start;
 	}
 }

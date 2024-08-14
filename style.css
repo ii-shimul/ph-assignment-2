@@ -36,6 +36,7 @@ body {
 	font-weight: 600;
 	line-height: 22px;
 	cursor: pointer;
+	border: none;
 }
 
 .description {
@@ -56,7 +57,7 @@ body {
 
 /* nav styles */
 
-nav .brand {
+.brand {
 	color: rgb(230, 83, 60);
 	font-size: 2.25rem;
 	font-weight: 800;
@@ -67,7 +68,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
-	width: 72.5%;
+	width: 71%;
 }
 
 nav ul {
@@ -425,18 +426,18 @@ select {
 
 /* team section */
 
-.team .texteam{
+.team .texteam {
 	text-align: center;
 	margin-bottom: 60px;
 }
-.team .texteam h1{
+.team .texteam h1 {
 	font-size: 3rem;
-    font-weight: 900;
-    line-height: 120%;
-    margin-bottom: 14px;
+	font-weight: 900;
+	line-height: 120%;
+	margin-bottom: 14px;
 }
 
-.team .texteam p{
+.team .texteam p {
 	text-align: center;
 	font-weight: 200;
 }
@@ -448,69 +449,187 @@ select {
 	border-radius: 18px;
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.1);
-
 }
 
-
-.t1, .t2, .t3, .t4, .t5, .t6 {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 18px;
-    height: 275px;
-    position: relative;
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 18px;
+	height: 275px;
+	position: relative;
 }
 
 .t1 {
-    background-image: url("./images/trainer1.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer1.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .t2 {
-    background-image: url("./images/trainer2.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer2.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .t3 {
-    background-image: url("./images/trainer3.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer3.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .t4 {
-    background-image: url("./images/trainer4.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer4.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .t5 {
-    background-image: url("./images/trainer5.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer5.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .t6 {
-    background-image: url("./images/trainer6.png");
-    background-color: rgba(0, 0, 0, 0.2);
+	background-image: url("./images/trainer6.png");
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.team .trainers .trainer .info{
+.team .trainers .trainer .info {
 	position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    font-size: 16px;
-    background: rgba(0, 0, 0, 0.1);
-    padding: 5px 10px;
-    border-radius: 5px;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	font-size: 16px;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 
-.team .trainers .trainer .info h3{
+.team .trainers .trainer .info h3 {
 	font-size: 18px;
 	font-weight: bold;
 }
-.team .trainers .trainer .info .role{
+.team .trainers .trainer .info .role {
 	font-size: 14px;
 	margin-top: 5px;
 	font-weight: 100;
 }
+/* current target styles */
+
+.facilities .text {
+	margin: 0 86px 43px 86px;
+	text-align: center;
+}
+
+.facilities .text .title {
+	color: rgb(255, 255, 255);
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 21px;
+	margin-bottom: 90px;
+}
+
+.cards .card {
+	width: 323px;
+	height: 290px;
+	border-radius: 16px;
+	background: rgba(255, 76, 30, 0.05);
+	padding: 35.6px;
+}
+
+.cards .card h3 {
+	color: rgb(13, 19, 33);
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 23px;
+	margin-bottom: 8px;
+}
+
+.cards .card a {
+	color: rgb(13, 19, 33);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+}
+
+.cards .card img,
+p {
+	margin-bottom: 21px;
+}
+
+.cards .css {
+	background: rgba(0, 76, 232, 0.05);
+}
+.cards .js {
+	background: rgba(255, 223, 0, 0.05);
+}
 
 /* footer section */
 
+.footer {
+	width: 100%;
+	height: 350px;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.foot-content {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center space-between;
+	align-items: center;
+	gap: 110px;
+	margin-top: 70px;
+}
+
+.footb {
+	font-size: 65px;
+	margin-bottom: 15px;
+}
+
+.get-started {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 30%;
+}
+
+.get-started h2 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.get-started h4 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 120%;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.3px;
+}
+
+hr {
+	width: 72.5%;
+}
