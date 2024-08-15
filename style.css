@@ -208,7 +208,9 @@ header {
 	width: 206px;
 	height: 96px;
 	margin: 32.4% 32.63% 8.81% 53%;
+	
 }
+
 
 .rectangle-tutorial > h3 {
 	color: rgb(250, 250, 249);
@@ -386,6 +388,7 @@ td {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
+	cursor: pointer;
 }
 
 .form-container form {
@@ -515,7 +518,7 @@ select {
 	margin-top: 5px;
 	font-weight: 100;
 }
-/* current target styles */
+/* facilities styles */
 
 .facilities .text {
 	margin: 0 86px 43px 86px;
@@ -540,6 +543,7 @@ select {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 	gap: 21px;
 	margin-bottom: 90px;
 }
@@ -569,8 +573,13 @@ select {
 	padding: 35.6px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	transition: box-shadow 0.3s ease; 
+}
+
+.cards .card:hover{
+	box-shadow: 0 0 11px rgba(255, 255, 255, 0.2); 
 }
 
 .cards .card h3 {
@@ -588,9 +597,12 @@ select {
 	line-height: 17px;
 }
 
+.cards .card .img-container, .cards .card p{
+	margin-bottom: 21px;
+}
+
 .cards .card img,
 p {
-	margin-bottom: 21px;
 	border-radius: 16px;
 }
 
